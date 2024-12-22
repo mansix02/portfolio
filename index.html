@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Ahirwar-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Mansi's portfolio</div>
+            <div class="right">
+                <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+                <ul id="nav-menu">
+                    <li><a href="#" id="homeLink">Home</a></li>
+                    <li><a href="#" id="aboutLink" onclick="scrollToSection('secondSection')">About</a></li>
+                    <li><a href="#" id="skillLink" onclick="scrollToSection('thirdSection')">Skill</a></li>
+                    <li><a href="#" id="projectLink" onclick="scrollToSection('fourthSection')">Projects</a></li>
+                    <li><a href="#" id="contectLink" onclick="scrollToSection('fifthSection')">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <section class="firstSection">
+            <div class="firstLeft">
+              Hii, I'm <span class="text-purple">Mansi Ahirwar</span>
+              <div>and I'm a passionate</div>
+              <span id="element"></span>
+            </div>
+            <div class="firstRight">
+              <img src="./assets/portfolioImg.png" alt="img">
+            </div>
+       </section>
+       <hr>
+       <section class="secondSection">
+            <div class="container1">
+                <div class="about-nav">
+                    About Me
+                </div>
+            </div>
+            <div class="container2">
+                <div class="secondLeft">
+                    <img src="./assets/pngwing.com.png" alt="img">
+                </div>
+                <div class="secondRight">
+                    Hi everyone I'm <span class="purple">Mansi Ahirwar</span> 
+                    from Jabalpur madhya pradesh.
+                    Currently I'm pursuing B.Tech
+                    from Shir Ram Institute of Technology
+                    in Computer Science Branch.
+                    <br><br>
+                </div>
+            </div>
+       </section>
+       <hr>
+       <section class="thirdSection">
+            <div class="container3">
+                Skills
+            </div>
+            <div class="container4">
+                <div class="row1">
+                    <div><img src="./assets/htmlPng.png" alt="img"></div>
+                    <div><img src="./assets/9112518_css3_alt_icon.png" alt="img"></div>
+                    <div><img src="./assets/8666304_node_js_icon.png" alt="img"></div>
+                    <div><img src="./assets/9117956_bootstrap_fill_icon.png" alt="img"></div>
+                    <div><img src="./assets/9074204_tailwind_icon.png" alt="img"></div>
+                </div>
+                <div class="row2">
+                    <div><img src="./assets/9073194_c_icon.png" alt="img"></div>
+                    <div><img src="./assets/9055914_bxl_c_plus_icon.png" alt="img"></div>
+                    <div><img src="./assets/1012818_code_development_logo_nodejs_icon.png" alt="img"></div>
+                    <div><img src="./assets/2133095_document_eps_file_format_java_icon.png" alt="img"></div>
+                    <div><img src="./assets/4691213_python_icon.png" alt="img"></div>
+                </div>
+                <div class="row3">
+                    <div><img src="./assets/315887_document_sql_file_icon.png" alt="img"></div>
+                    <div><img src="./assets/8546865_git_alt_icon.png" alt="img"></div>
+                </div>
+            </div>
+            <div class="container5">
+                <span class="text-purple">Tools</span> &ensp; <span>I use</span>
+            </div>
+            <div class="container6">
+                <div><img src="./assets/9118335_vscode_fill_icon.png" alt="img"></div>
+                <div><img src="./assets/9057106_figma_icon.png" alt="img"></div>
+                <div><img src="./assets/4691397_postman_icon (1).png" alt="img"></div>
+                <div><img src="./assets/291716_github_logo_social network_social_icon.png" alt="img"></div>
+            </div>
+       </section>
+       <hr>
+       <section class="fourthSection">
+            <div class="container7">
+                Projects
+            </div>
+            <div class="container8">
+                <div class="row4">
+                    <div>
+                        <img src="./assets/imageportfolio2.webp" alt="img">
+                        <p>Simon Says Game</p>
+                        <a href="./projects/simonSayGame/index.html"><span class="pbutton"><button>View Project</button></span></a>
+                        <a href="https://github.com/mansix02/SimonSayGame.git"><span class="pbutton"><button>View Code</button></span></a>
+                    </div>
+                    <div>
+                        <img src="./assets/imageportfolio3.jpg" alt="">
+                        <p>amazon clone</p>
+                        <a href="./amazon project/index.html"><span class="pbutton"><button>View Project</button></span></a>
+                        <a href="https://github.com/mansix02/amazon-clone.git"><span class="pbutton"><button>View Code</button></span></a>
+                    </div>
+                    <div>
+                        <img src="./assets/imageportfolio4.jpg" alt="">
+                        <p>spotify clone</p>
+                        <a href="./spotifyClone/index.html"><span class="pbutton"><button>View Project</button></span></a>
+                        <a href="https://github.com/mansix02/spotifyClone.git"><span class="pbutton"><button>View Code</button></span></a>
+                    </div>
+                </div>
+                <div class="row5 hiddenContent">
+                    <div>
+                        <img src="./assets/imageportfolio5.webp" alt="">
+                        <p>Running Game</p>
+                        <span class="pbutton"><button>View Project</button></span>
+                        <span class="pbutton"><button>View Code</button></span>
+                    </div>
+                    <div>
+                        <img src="./assets/imageportfolio6.png" alt="">
+                        <p>Todo App</p>
+                        <span class="pbutton"><button>View Project</button></span>
+                        <span class="pbutton"><button>View Code</button></span>
+                    </div>
+                    <div>
+                        <img src="./assets/imageportfolio7.jpg" alt="">
+                        <p>Blog Website</p>
+                        <span class="pbutton"><button>View Project</button></span>
+                        <span class="pbutton"><button>View Code</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container81">
+                <button id="toggleButton">See More</button>
+            </div>
+       </section>
+       <hr>
+       <section class="fifthSection">
+            <div class="contect">
+                Contect me
+            </div>
+            <div class="cont">
+                <div class="container9"> 
+                    <div>
+                        <p>Feel free to contect me &hearts;</p><br>
+                        <a href=""><i class="fa-solid fa-envelope"></i> &ensp;mansiahirwar2202@gmail.com</a>
+                        <br><br>
+                        <a href="https://www.linkedin.com/in/mansi-ahirwar-18446a286"><i class="fa-brands fa-linkedin"></i> &ensp;Mansi Ahirwar</a>
+                        <br><br>
+                        <a href="https://github.com/mansix02"><i class="fa-brands fa-github"></i> &ensp;mansix02</a>
+                        <br>
+                        <br>
+                        <a href=""><i class="fa-brands fa-discord"></i> &ensp; mansix02</a>
+                    </div>
+                </div>
+                <div class="container10">
+                    <label for="name">&ensp; &ensp; Name :</label>
+                    <input type="text" placeholder="Enter your name" id="name">
+                    <br>
+                    <label for="mail">&ensp; &ensp; &ensp;Email :</label>
+                    <input type="text" placeholder="Enter your mail" id="mail">
+                    <br>
+                    <label for="msg">Massege :</label>
+                    <input name="message" id="msg" placeholder="Enter message"></input>
+                    <br>
+                    <button type="button">Submit</button>
+                </div>
+            </div>
+       </section>
+    </main>
+
+    <footer>
+        <div>Copywrite &copy; 2024</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Web Developer','Programmer','Web Developer'],
+        typeSpeed: 100,
+      });
+    </script>
+
+
+
+<script>
+    const links = [
+        { id: 'homeLink', section: 'firstSection' },
+        { id: 'aboutLink', section: 'secondSection' },
+        { id: 'skillLink', section: 'thirdSection' },
+        { id: 'projectLink', section: 'fourthSection' },
+        { id: 'contectLink', section: 'fifthSection' }
+    ];
+
+    links.forEach(link => {
+        document.getElementById(link.id).addEventListener('click', function(event) {
+            event.preventDefault();
+            scrollToSection(link.section);
+        });
+    });
+
+    function scrollToSection(sectionId) {
+        document.querySelector('.' + sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+
+<script>
+function toggleMenu() {
+    const navMenu = document.getElementById('nav-menu');
+    navMenu.classList.toggle('show');
+}
+</script> 
+
+    <script src="app.js"></script>
+</body>
+</html>
