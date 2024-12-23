@@ -89,6 +89,12 @@ nav .menu-toggle {
     }
 }
 
+@media (max-width: 480px){
+    .nav{
+        width: 95%;
+    }
+}
+
 
 main hr{
     border: 0;
@@ -317,49 +323,59 @@ main hr{
 }
 
 /* -----------Skills----------- */
-.thirdSection .container3{
+.thirdSection .container3 {
     font-size: 2.5rem;
     color: plum;
     height: 120px;
     display: flex;
     justify-content: space-around;
-    align-items: center ; 
+    align-items: center;
 }
-.thirdSection .container4{
+
+.thirdSection .container4 {
     margin-left: 180px;
     margin-right: 180px;
 }
-.thirdSection .container4 .row1{
+
+.thirdSection .container4 .row1 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.thirdSection .container4 .row1 div{
+
+.thirdSection .container4 .row1 div {
     height: 150px;
     width: 200px;
     background-color: rgb(0, 0, 33);
     border: 3px solid plum;
     border-radius: 15px;
 }
-.thirdSection .container4 .row1 div:hover{
+
+.thirdSection .container4 .row1 div:hover {
     height: 155px;
     width: 205px;
 }
+
 .thirdSection .container4 .row2 {
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.thirdSection .container4 .row2 div{
+
+.thirdSection .container4 .row2 div {
     height: 150px;
     width: 200px;
     background-color: rgb(0, 0, 33);
     border: 3px solid plum;
     border-radius: 15px;
 }
-.thirdSection .container4 .row2 div:hover{
+
+.thirdSection .container4 .row2 div:hover {
     height: 155px;
     width: 210px;
 }
+
 .thirdSection .container4 .row3 {
     padding-top: 20px;
     display: flex;
@@ -367,170 +383,108 @@ main hr{
     align-items: center;
     margin-left: 350px;
     margin-right: 350px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.thirdSection .container4 .row3 div{
+
+.thirdSection .container4 .row3 div {
     height: 150px;
     width: 200px;
     background-color: rgb(0, 0, 33);
     border: 3px solid plum;
     border-radius: 15px;
 }
-.thirdSection .container4 .row3 div:hover{
+
+.thirdSection .container4 .row3 div:hover {
     height: 155px;
-    width: 210px; 
+    width: 210px;
 }
-.thirdSection .container5{
+
+.thirdSection .container5 {
     margin-top: 70px;
     font-size: 2.2rem;
     color: white;
     height: 120px;
     display: flex;
     justify-content: center;
-    align-items: center ; 
+    align-items: center;
 }
-.thirdSection .container6{
+
+.thirdSection .container6 {
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
-.thirdSection .container6 div{
+
+.thirdSection .container6 div {
     height: 150px;
     width: 200px;
     background-color: rgb(0, 0, 33);
     border: 3px solid plum;
     border-radius: 15px;
 }
-.thirdSection div img{
+
+.thirdSection div img {
     margin-left: 35px;
     margin-top: 10px;
 }
-.thirdSection img{
+
+.thirdSection img {
     text-align: center;
     height: 130px;
     width: 130px;
 }
 
+/* Responsive adjustments for tablets */
+@media (max-width: 768px) {
+    .thirdSection .container4,
+    .thirdSection .container6 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
-/* ----------Projects----------- */
-/* .fourthSection .container7{
-    font-size: 2.5rem;
-    color: plum;
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center ; 
-}
-.fourthSection .container8{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-.fourthSection .container8 .row4{
-    display: flex;
-    justify-content: space-between;
-}
-.fourthSection .container8 .row4 div{
-    height: 447px;
-    width: 400px;
-    background-color: rgb(0, 0, 33);
-    border: 3px solid plum;
-    border-radius: 15px;
-}
-.fourthSection .container8 .row4 div img{
-    /* padding: 25px; 
-    padding-left: 25px ;
-    padding-top: 25px;
-    padding-left: 25px;
-    height: 300px;
-    width: 350px;
-}
-.fourthSection .container8 .row4 div p{
-    color: #dda0dd;
-    font-size: 1.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-.fourthSection .container8 .row4 div button{
-    margin-left: 20px;
-    border: 2px solid plum;
-    height: 40px;
-    width: 170px;
-    background-color: plum;
-    border-radius: 10px;
-    color: rgb(0, 0, 33);
-    font-size: 1.15rem;
-}
-.fourthSection .container8 .row4 div button:hover{
-    background-color: white;
-}
-.fourthSection .container8 .row4 div span{
-    justify-content: space-around;
-}
-.fourthSection .container8 .row5{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-.fourthSection .container8 .row5 div{
-    height: 447px;
-    width: 400px;
-    background-color: rgb(0, 0, 33);
-    border: 3px solid #dda0dd;
-    border-radius: 15px;
-}
-.fourthSection .container8 .row5 div img{
-    padding-left: 25px ;
-    padding-top: 25px;
-    padding-left: 25px;
-    height: 300px;
-    width: 350px;
-}
-.fourthSection .container8 .row5 div p{
-    color: #dda0dd;
-    font-size: 1.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 12px;
-}
-.fourthSection .container8 .row5 div button{
-    margin-left: 20px;
-    border: 2px solid plum;
-    height: 40px;
-    width: 170px;
-    background-color: plum;
-    border-radius: 10px;
-    color: rgb(0, 0, 33);
-    font-size: 1.15rem; 
-}
-.fourthSection .container8 .row5 div button:hover{
-    background-color: white;
-}
-.fourthSection .container81 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-.fourthSection .container81 button{
-    margin-left: 20px;
-    border: 2px solid plum;
-    height: 40px;
-    width: 170px;
-    background-color: plum;
-    border-radius: 10px;
-    color: rgb(0, 0, 33);
-    font-size: 1.15rem; 
-}
-.fourthSection .container81 button:hover{
-    background-color: white; 
-} */
+    .thirdSection .container4 .row3 {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 
+    .thirdSection .container3 {
+        font-size: 2rem;
+    }
+}
 
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+    .thirdSection .container4,
+    .thirdSection .container6 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
+    .thirdSection .container4 .row3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .thirdSection .container3 {
+        font-size: 1.5rem;
+    }
+
+    .thirdSection .container4 .row1 div,
+    .thirdSection .container4 .row2 div,
+    .thirdSection .container4 .row3 div,
+    .thirdSection .container6 div {
+        width: 150px;
+        height: 120px;
+    }
+
+    .thirdSection img {
+        height: 100px;
+        width: 100px;
+    }
+}
 
 
 /* ----------Projects----------- */
