@@ -91,7 +91,7 @@ nav .menu-toggle {
 
 @media (max-width: 480px){
     .nav{
-        width: 95%;
+        margin-bottom: 20px;
     }
 }
 
@@ -351,10 +351,10 @@ main hr{
     border-radius: 15px;
 }
 
-.thirdSection .container4 .row1 div:hover {
+/* .thirdSection .container4 .row1 div:hover {
     height: 155px;
     width: 205px;
-}
+} */
 
 .thirdSection .container4 .row2 {
     padding-top: 20px;
@@ -371,10 +371,10 @@ main hr{
     border-radius: 15px;
 }
 
-.thirdSection .container4 .row2 div:hover {
+/* .thirdSection .container4 .row2 div:hover {
     height: 155px;
     width: 210px;
-}
+} */
 
 .thirdSection .container4 .row3 {
     padding-top: 20px;
@@ -394,10 +394,10 @@ main hr{
     border-radius: 15px;
 }
 
-.thirdSection .container4 .row3 div:hover {
+/* .thirdSection .container4 .row3 div:hover {
     height: 155px;
     width: 210px;
-}
+} */
 
 .thirdSection .container5 {
     margin-top: 70px;
@@ -457,10 +457,10 @@ main hr{
 
 /* Responsive adjustments for mobile devices */
 @media (max-width: 480px) {
+
     .thirdSection .container4,
     .thirdSection .container6 {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-bottom: 0;
     }
 
     .thirdSection .container4 .row3 {
@@ -469,13 +469,19 @@ main hr{
     }
 
     .thirdSection .container3 {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
+    }
+
+    .thirdSection div img {
+        margin-left: 20px;
+        margin-top: 10px;
     }
 
     .thirdSection .container4 .row1 div,
     .thirdSection .container4 .row2 div,
     .thirdSection .container4 .row3 div,
     .thirdSection .container6 div {
+        margin-bottom: 10px;
         width: 150px;
         height: 120px;
     }
@@ -768,11 +774,6 @@ footer div {
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
 
 
 
